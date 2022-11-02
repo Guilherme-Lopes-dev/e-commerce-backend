@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Welcome our to online shop API...");
+  res.send("API e-commerce");
 });
 
 app.get("/products", (req, res) => {
@@ -18,4 +18,6 @@ app.get("/products", (req, res) => {
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, console.log(`Server running on port ${port}`));
+app.listen(process.env.PORT || 5000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});

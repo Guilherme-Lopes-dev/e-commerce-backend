@@ -18,7 +18,7 @@ const products = [
         name: "iPhone XR",
         desc: 'Tela de 6.1", 128GB',
         price: 3599,
-        image: "https://res.cloudinary.com/dstkk44dx/image/upload/v1665351848/onlineshop/iphone-12-pro-max-produto-700x700_uoegha.webp"
+        image: "https://res.cloudinary.com/dstkk44dx/image/upload/v1665351852/onlineshop/iphone-xr-produto_rkupwl.webp"
 
     },
     {
